@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import style from './style.module.scss';
 
@@ -16,10 +16,13 @@ const agiotas = [
 
 export default function Slide() {
 
-    let image = agiotas[randomInt(0, 7)]
+    let image = agiotas[0]
 
     return (<div className={style.memeContainer}>
-        <img className={style.meme} src={image} alt="Vinicius Caloteiro Memes"></img>
+        {useEffect(() => {
+            document.getElementById("meme").src = agiotas[randomInt(0, agiotas.length - 1)]
+        })}
+        <img id="meme" className={style.meme} src={image} alt="Vinicius Caloteiro Memes"></img>
     </div>)
 }
 

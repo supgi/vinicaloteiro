@@ -43,6 +43,7 @@ export default function Home() {
                     <br />
                     Vinicius finalmente percebeu que suas ações tiveram consequências sérias. Ele se arrependeu de ter perdido a amizade de Giovanni por causa de sua própria irresponsabilidade financeira. Ele aprendeu uma lição valiosa sobre responsabilidade e sobre como as ações individuais podem afetar as pessoas ao seu redor.<br />
                 </p>
+                <p style={{marginTop: "20px"}}><i>gerado pelo ChatGPT</i></p>
             </div>
         </Section>
     </Layout>)

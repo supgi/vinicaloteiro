@@ -1,0 +1,13 @@
+@mixin df($bg) {
+    background-color: $bg;
+    color: white;
+    padding: 8px;
+}
+
+.theme1 {
+    @include df(#150025);
+}
+
+.theme2 {
+    @include df(#1f0037);
+}

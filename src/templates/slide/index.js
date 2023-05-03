@@ -10,7 +10,14 @@ const agiotas = [
     "images/caloteiro4.jpg",
     "images/caloteiro5.jpeg",
     "images/caloteiro6.jpg",
-    "images/caloteiro7.jpeg"
+    "images/caloteiro7.jpeg",
+    "images/caloteiro8.jpeg",
+    "images/caloteiro9.jpeg",
+    "images/caloteiro10.jpeg",
+    "images/caloteiro11.jpeg",
+    "images/caloteiro12.jpeg",
+    "images/caloteiro13.jpeg",
+    "images/caloteiro14.jpeg"
 ]
 
 
